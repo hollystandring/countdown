@@ -19,7 +19,7 @@ $ cd countdown.sh
 ```
 $ chmod +x countdown.sh
 ```
-33. Oprionally add it to a directory in the PATH like:
+3. Oprionally add it to a directory in the PATH like:
 ```
 $ sudo cp countdown.sh /bin/
 ```
