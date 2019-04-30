@@ -6,6 +6,27 @@ A shell countdown timer that I display in my [dwm status bar](https://github.com
 * Prevents multiple instances of the script running at once.
 ## Optional dependencies
 * libnotify for notifications
+## Installation
+1. Clone the repository:
+```
+$ git clone https://github.com/joestandring/countdown.sh
+```
+2. Enter the directory:
+```
+$ cd countdown.sh
+```
+2. Allow running of the script:
+```
+$ chmod +x countdown.sh
+```
+33. Oprionally add it to a directory in the PATH like:
+```
+$ sudo cp countdown.sh /bin/
+```
+4. Run the script:
+```
+$ ./countdown.sh
+```
 ## How to use
 You can run countdown.sh with 3 arguments corresponding to hours, minutes, and seconds:
 ```
