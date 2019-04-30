@@ -1,7 +1,7 @@
 # countdown.sh
 A shell countdown timer that I display in my [dwm status bar](https://github.com/joestandring/dotfiles).
 ## Features
-* Creates a temporary file so the current status can be used in other scripts (e.g. a [dwm status bar](https://github.com/joestandring/dotfiles).
+* Creates a temporary file so the current status can be used in other scripts (e.g. a [dwm status bar](https://github.com/joestandring/dotfiles)).
 ## How to use
 You can run countdown.sh with 3 arguments corresponding to hours, minutes, and seconds:
 ```
