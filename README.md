@@ -23,6 +23,6 @@ Seconds: 5
 ...
 ```
 ### Planned improvements
-Ensure only one instace can run at a time so that my [dwm status bar](https://github.com/joestandring/dotfiles) doesnt confuse itself with multiple temp files.
+Ensure only one instace can run at a time so that my [dwm status bar](https://github.com/joestandring/dotfiles) doesnt confuse itself with multiple temp files
 **OR**
 Make the temp file always use the same name and prevent new instances running if it find that name in /tmp/.
