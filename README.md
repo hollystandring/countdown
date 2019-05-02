@@ -15,15 +15,15 @@ $ git clone https://github.com/joestandring/countdown
 ```sh
 $ cd countdown
 ```
-2. Allow running of the script:
+3. Allow running of the script:
 ```sh
 $ chmod +x countdown.sh
 ```
-3. Oprionally add it to a directory in the PATH like:
+4. Oprionally add it to a directory in the PATH like:
 ```sh
 $ sudo cp countdown.sh /bin/
 ```
-4. Run the script:
+5. Run the script:
 ```sh
 $ ./countdown.sh
 ```
