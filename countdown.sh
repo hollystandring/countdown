@@ -1,6 +1,8 @@
 #!/bin/sh
 
 # A countdown timer
+# Joe Standring <jstandring@pm.me>
+# GNU GPLv3
 
 if [ -e /tmp/countdown* ]; then
     printf "There may be another instance of this script running. If you are sure there is not, delete the file /tmp/countdown.XXXXX and try again.\n"
@@ -10,7 +12,7 @@ else
     trap "rm -r $TMP" EXIT
 
     # If there are 3 arguments given, they become H, M, and S. Otherwise, the user is asked
-    if (($# == 3)); then
+    if [ $# -eq 3 ]; then
         HOURS=$1
         MINUTES=$2
         SECONDS=$3
@@ -24,7 +26,7 @@ else
     TIMER=$(( ($HOURS*3600) + ($MINUTES*60) + $SECONDS ))
 
     # Count down and output remaining time to temp file
-    while [[ $TIMER -gt 0 ]]
+    while [ $TIMER -gt 0 ]
     do
         printf "%02dh:%02dm:%02ds\n" $(($TIMER/3600)) $(($TIMER%3600/60)) $(($TIMER%60))
         printf "%02d:%02d:%02d\n" $(($TIMER/3600)) $(($TIMER%3600/60)) $(($TIMER%60)) >> $TMP
