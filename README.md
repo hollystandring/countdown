@@ -1,4 +1,4 @@
-# countdown.sh
+# Countdown
 A shell countdown timer that I display in my [dwm status bar](https://github.com/joestandring/dotfiles).
 ## Features
 * Creates a temporary file so the current status can be used in other scripts (e.g. a [dwm status bar](https://github.com/joestandring/dotfiles)).
