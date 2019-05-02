@@ -9,11 +9,11 @@ A shell countdown timer that I display in my [dwm status bar](https://github.com
 ## Installation
 1. Clone the repository:
 ```sh
-$ git clone https://github.com/joestandring/countdown.sh
+$ git clone https://github.com/joestandring/countdown
 ```
 2. Enter the directory:
 ```sh
-$ cd countdown.sh
+$ cd countdown
 ```
 2. Allow running of the script:
 ```sh
