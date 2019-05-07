@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # A countdown timer
-# Joe Standring <jstandring@pm.me>
+# Joe Standring <git@joestandring.com>
 # GNU GPLv3
 
 if [ -e /tmp/countdown* ]; then
