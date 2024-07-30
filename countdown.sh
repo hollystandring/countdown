@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # A countdown timer
-# Joe Standring <git@joestandring.com>
 # GNU GPLv3
 
 for f in /tmp/countdown.*; do
