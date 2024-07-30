@@ -9,7 +9,7 @@ A shell countdown timer that I display in my [dwm status bar](https://github.com
 ## Installation
 1. Clone the repository:
 ```sh
-$ git clone https://github.com/joestandring/countdown
+$ git clone https://github.com/hollystandring/countdown
 ```
 2. Enter the directory:
 ```sh
