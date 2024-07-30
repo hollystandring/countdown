@@ -1,7 +1,7 @@
 # Countdown
-A shell countdown timer that I display in my [dwm status bar](https://github.com/joestandring/dotfiles).
+A shell countdown timer that I display in my [dwm status bar](https://github.com/hollystandring/dotfiles).
 ## Features
-* Creates a temporary file so the current status can be used in other scripts (e.g. a [dwm status bar](https://github.com/joestandring/dotfiles)).
+* Creates a temporary file so the current status can be used in other scripts (e.g. a [dwm status bar](https://github.com/hollystandring/dotfiles)).
 * Alerts the user with a notification.
 * Prevents multiple instances of the script running at once.
 ## Optional dependencies
